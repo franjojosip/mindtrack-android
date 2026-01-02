@@ -13,7 +13,13 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.android.desugar)
+
     implementation(project(":domain"))
+
     implementation(libs.androidx.core.ktx)
+    implementation(libs.kotlinx.coroutines.core)
+
     testImplementation(kotlin("test"))
+    testImplementation(libs.kotlinx.coroutines.test)
 }

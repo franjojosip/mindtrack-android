@@ -1,9 +1,17 @@
 package com.fjjukic.mindtrack.feature.dashboard
 
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 
 @Composable
-fun DashboardScreen() {
-    Text("Dashboard")
+fun DashboardScreen(
+    viewModel: DashboardViewModel
+) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+
+    DashboardContent(
+        state = state,
+        onEvent = viewModel::onEvent
+    )
 }

@@ -8,21 +8,25 @@ android {
     namespace = "com.fjjukic.mindtrack.feature.auth"
     compileSdk = 36
 
-    defaultConfig { minSdk = 24 }
+    defaultConfig {
+        minSdk = 24
+    }
 
-    buildFeatures { compose = true }
+    buildFeatures {
+        compose = true
+    }
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.android.desugar)
+
     implementation(project(":domain"))
     implementation(project(":core-ui"))
 
     implementation(libs.androidx.core.ktx)
-
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
-
     implementation(libs.androidx.navigation.compose)
 
     testImplementation(kotlin("test"))
