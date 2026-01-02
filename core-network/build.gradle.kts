@@ -13,6 +13,8 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.android.desugar)
+
     implementation(libs.androidx.core.ktx)
     testImplementation(kotlin("test"))
 }

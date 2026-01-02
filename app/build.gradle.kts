@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.android.desugar)
+
     implementation(project(":domain"))
     implementation(project(":data"))
     implementation(project(":core-ui"))
