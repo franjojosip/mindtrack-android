@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fjjukic.feature_dashboard"
+    namespace = "com.fjjukic.feature.dashboard"
     compileSdk = 36
 
     defaultConfig {

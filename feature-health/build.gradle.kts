@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fjjukic.feature_health"
+    namespace = "com.fjjukic.feature.health"
     compileSdk = 36
 
     defaultConfig {
