@@ -28,6 +28,8 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
 
+    implementation(libs.androidx.navigation.compose)
+
     testImplementation(kotlin("test"))
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
