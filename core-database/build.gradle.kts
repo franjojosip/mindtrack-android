@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fjjukic.core_database"
+    namespace = "com.fjjukic.core.database"
     compileSdk = 36
 
     defaultConfig {

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fjjukic.feature_auth"
+    namespace = "com.fjjukic.feature.auth"
     compileSdk = 36
 
     defaultConfig {

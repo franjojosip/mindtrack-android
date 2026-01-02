@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fjjukic.feature_habits"
+    namespace = "com.fjjukic.feature.habits"
     compileSdk = 36
 
     defaultConfig {

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fjjukic.core_network"
+    namespace = "com.fjjukic.core.network"
     compileSdk = 36
 
     defaultConfig {
