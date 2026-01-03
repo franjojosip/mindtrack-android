@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.fjjukic.mindtrack.di.MindTrackContainer
+import com.fjjukic.mindtrack.ui.AppRoot
 import com.fjjukic.mindtrack.ui.theme.MindTrackTheme
 
 class MainActivity : ComponentActivity() {
