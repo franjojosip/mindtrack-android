@@ -1,8 +1,8 @@
-package com.fjjukic.mindtrack.feature.settings
+package com.fjjukic.mindtrack.feature.settings.navigation
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
-import com.fjjukic.mindtrack.feature.settings.navigation.SettingsRoute
+import com.fjjukic.mindtrack.feature.settings.SettingsScreen
 
 fun NavGraphBuilder.settingsFeature() {
     composable(SettingsRoute.route) {
